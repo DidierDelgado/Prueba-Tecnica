@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
     public void IrAlMenu()
     {
         Time.timeScale = 1f; // Restaurar el tiempo
-        SceneManager.LoadScene("Menu Principal"); // Cambiar a la escena del menú
+        SceneManager.LoadScene("Menu Principal"); // Cambiar a la escena del menu
     }
 
     public void Jugar()

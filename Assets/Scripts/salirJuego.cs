@@ -7,10 +7,10 @@ public class salirJuego : MonoBehaviour
     public void ExitGameFunction() 
     {
         #if UNITY_EDITOR
-            // Si estás en el Editor de Unity, solo detén la reproducción
+            // Si estas en el Editor de Unity, solo deten la reproduccion
             UnityEditor.EditorApplication.isPlaying = false;
         #else
-            // Si no estás en el Editor (en una compilación del juego), cerramos la aplicación
+            // Si no estas en el Editor (en una compilacion del juego), cerramos la aplicacion
             Application.Quit();
         #endif
 
